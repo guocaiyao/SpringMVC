@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="cn.edu.sysu.lilab.dao.IUserDao">
+    <!--配置查询所有-->
+<!--    select标签的id与Dao持久层的方法名一致-->
+    <select id="findAll" resultType="cn.edu.sysu.lilab.domain.User">
+        select * from user
+    </select>
+</mapper>
